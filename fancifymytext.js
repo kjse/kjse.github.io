@@ -17,7 +17,6 @@ function fancifyCall(){
 }
 
 function mooCall(){
-  alert("moo");
   var str = document.getElementById("text");
   var parts = str.value.split(" ");
   str.value = parts.join("-Moo.");
