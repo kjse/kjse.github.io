@@ -1,11 +1,41 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <h1>From Kaily Jae</h1>
-    <p>Recently, my friend who plays guitar taught me what <strong>harmonics</strong> are and that you can tune your guitar with harmonics. A link to a short video about <a href="https://www.youtube.com/watch?v=ru7HIGKMRNI" title="Harmonics" target="_bank"> harmonics</a>.<br><hr>
-	<img src="https://images.squarespace-cdn.com/content/v1/5c0c28b850a54f46ae54bf09/1547409661705-3Q979L56A36HBEO93R33/Untitled-1.png?format=10w">
-    </p>  
-  </body>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<meta charset="utf-8">
+		<script type="text/javascript" src="fancifymytext.js" defer></script>	
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		
+		<!-- Your UI controls go here -->
+		
+		  <fieldset>
+		     <legend>Text</legend>
+		     <textarea id="text" name="text"
+				rows="4" cols="33">
+		     </textarea>
+		  </fieldset>
+		  <fieldset>
+		     <legend>Fancify</legend>
+
+		     <button name="Bigger" onclick="biggerCall()">Bigger!</button><br/>
+			
+		     <label>
+			<input id="fancy" type="radio" name="choice" onchange="fancifyCall()">
+			FancifySchmancy
+		     </label>
+		     <label>
+			<input id="boring" type="radio" name="choice" onchange="fancifyCall()">
+			BoringBetty
+		     </label>
+		     <br/>
+		     <button name="Moo" onclick="mooCall()">Moo</button><br/>
+
+		  </fieldset>
+	</body>
 </html>
